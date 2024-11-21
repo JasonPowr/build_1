@@ -36,7 +36,7 @@ spec:
       - name: revision
         value: 'main'
       - name: pathInRepo
-        value: '.tekton/docker-build.yaml'
+        value: '.tekton/docker-build-oci-ta.yaml'
   taskRunTemplate: {}
   workspaces:
   - name: workspace
